@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  background: #d9edff;
+}
+.login-pf body {
+  background: url(../login.png);
+  background-size: cover;
+}
+
+.login-pf-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0 0 40px rgb(0 0 0 / 16%);
+  overflow: hidden;
+  margin: 60px auto;
+  border-radius: 12px;
+  padding: 60px
+}
+
+.login-pf-header {
+  color: #333333;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 0 60px;
+}
+
+#kc-page-title {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1;
+  margin: 0;
+  padding: 0px;
+  align-self: flex-start;
+}
+
+.login-pf-page .card-pf {
+  box-shadow: none;
+  padding: 0px;
+  max-width: 500px;
+  width: 50vw;
+}
+
+.card-pf {
+  margin: 0px;
+}
+
+.login-pf-page .login-pf-header {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.form-group {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  margin-bottom: 20px;
+  vertical-align: top;
+  transition: margin-bottom 0.3s 0.017s linear;
+}
+
+.pf-c-form-control:not(textarea) {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  border-radius: 6px;
+  box-shadow: none;
+  border-color: #ececec;
+}
+
+.login-pf-page .login-pf-settings {
+  align-items: center;
+  margin: 0px;
+}
+
+.pf-c-button.pf-m-primary {
+  height: 42px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+}
+
+.pf-c-form__label {
+  padding-bottom: 6px;
+}
+
+.pf-c-button.pf-m-control::after {
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: none;
+  border-color: #ececec;
+}
+.kc-social-icon-text {
+  white-space: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.pf-c-button.pf-m-block {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.pf-c-login__main-footer-links {
+  padding-top: 10px;
+}
+
+.login-pf-page .login-pf-page-header {
+  color: #333333;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+}
